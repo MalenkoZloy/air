@@ -1,0 +1,30 @@
+.sort_tabs {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    width: 727px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: #E7EBF2;
+}
+
+.active{
+    background-color: #4E148B;
+    color: #FFFFFF;
+    border-radius:  5px;
+    width: 242px;
+    text-align: center;
+
+}
+
+.not_active{
+    border-radius: 10px;
+    color: #4E148B;
+    background: #E7EBF2;
+    width: 242px;
+}

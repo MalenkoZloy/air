@@ -1,0 +1,68 @@
+.tickets_container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 276px;
+
+}
+
+.filter_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container_price_company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container_info{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #858AE3;
+}
+.container_get-info{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #4F148B;
+}
+
+.tickets_card{
+    width: 727px;
+    height: 174px;
+    background-color: #E7EBF2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.tickets_price {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4F148B;
+}
